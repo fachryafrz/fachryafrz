@@ -22,7 +22,7 @@
 
 My full name is Fachry Dwi Afriza, you can call me Fachry or Ry.
 
-I'm a self taught Photo & Video Editor, Vector illustrations, 3D Model, Game Development and Web Development since I was 14 years old.
+I'm a self taught Web Development, App Development, Photo & Video Editor, Vector Illustrations, 3D Model, Game Development.
 
 ## 📈 My Github Stats
 
