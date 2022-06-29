@@ -16,6 +16,8 @@
 ![](https://img.shields.io/badge/Photoshop-informational?style=flat&logo=adobephotoshop&logoColor=white&color=3c327b)
 ![](https://img.shields.io/badge/Illustrator-informational?style=flat&logo=adobeillustrator&logoColor=white&color=f8a829)
 ![](https://img.shields.io/badge/Premiere%20Pro-informational?style=flat&logo=adobepremierepro&logoColor=white&color=393665)
+![](https://img.shields.io/badge/Blender-informational?style=flat&logo=blender&logoColor=white&color=EA7600)
+![](https://img.shields.io/badge/Unity-informational?style=flat&logo=unity&logoColor=white&color=222c37)
 ![](https://img.shields.io/badge/Canva-informational?style=flat&logo=canva&logoColor=white&color=20c4cb)
 
 # 👋 Hello, fellow devs!
