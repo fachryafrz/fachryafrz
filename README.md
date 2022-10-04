@@ -9,6 +9,7 @@
 ![](https://img.shields.io/badge/JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=F0DB4F)
 ![](https://img.shields.io/badge/PHP-informational?style=flat&logo=php&logoColor=white&color=787CB5)
 ![](https://img.shields.io/badge/CodeIgniter-informational?style=flat&logo=codeigniter&logoColor=white&color=dd4814)
+![](https://img.shields.io/badge/Laravel-informational?style=flat&logo=laravel&logoColor=white&color=F05340)
 ![](https://img.shields.io/badge/Dart-informational?style=flat&logo=dart&logoColor=white&color=0075BA)
 ![](https://img.shields.io/badge/Flutter-informational?style=flat&logo=flutter&logoColor=white&color=42A5F5)
 ![](https://img.shields.io/badge/MySQL-informational?style=flat&logo=mysql&logoColor=white&color=00758f)
