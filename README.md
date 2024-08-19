@@ -25,7 +25,7 @@
 
 My full name is Fachry Dwi Afriza, you can call me Fachry or Ry.
 
-I'm a student and self taught Full-Stack WebDev, Front-End Mobile AppDev, UI/UX Designer, Graphic Designer.
+I'm a student and self-taught Front-End Web Developer.
 
 ## 📈 My Github Stats
 
