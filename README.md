@@ -11,7 +11,7 @@
 
 <p>
   <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C18B73&width=435&lines=Front-End+Web+Developer;Over+4%2B+years+of+experience" 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=C18B73&width=435&lines=Self-Taught;Front-End+Web+Developer;JS FTW!!!" 
   />
 </p>
 
