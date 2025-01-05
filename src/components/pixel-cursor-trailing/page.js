@@ -8,7 +8,8 @@ export default function PixelCursorTrailing() {
   const [numberOfBlocks, setNumberOfBlocks] = useState(0);
 
   const colorize = (el) => {
-    el.style.backgroundColor = `white`;
+    el.style.backgroundColor = `#c18971`;
+    el.style.border = `1px solid #1a1a1a`;
     setTimeout(() => {
       el.style.backgroundColor = `transparent`;
     }, 3e2);
@@ -74,7 +75,10 @@ export default function PixelCursorTrailing() {
         </div>
       </div>
 
-      <div id="grid" className={`hidden xl:flex w-full h-full overflow-hidden absolute`}>
+      <div
+        id="grid"
+        className={`hidden xl:flex w-full h-full overflow-hidden absolute`}
+      >
         {windowWidth > 0 &&
           [...Array(numberOfBlocks).keys()].map((_, i) => {
             return (
