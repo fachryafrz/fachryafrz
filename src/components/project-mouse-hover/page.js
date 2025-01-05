@@ -2,7 +2,7 @@
 "use client";
 
 import ModalProjectCard from "@/components/modal/project-card";
-import rawProjects from "@/data/projects.json";
+import { projects as rawProjects } from "@/data/projects";
 import { CalendarDays, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -48,9 +48,7 @@ function ProjectCard({ project, index, setModal }) {
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex w-full gap-4 sm:flex-row sm:items-center flex-col justify-between p-4 border-y [&_h3]:hover:opacity-20 hover:px-2 transition-all [&_*]:transition-all ${
-          isOpen ? "[&_h3]:opacity-20 px-2" : ""
-        }`}
+        className={`flex sticky top-0 z-50 bg-bg w-full gap-4 sm:flex-row sm:items-center flex-col justify-between p-4 border-y [&_h3]:hover:opacity-20 hover:px-2 transition-all [&_*]:transition-all`}
       >
         <h3 className={`text-3xl text-start`}>{project.name}</h3>
 
@@ -60,19 +58,23 @@ function ProjectCard({ project, index, setModal }) {
       </button>
 
       {isOpen && (
-        <div className={`p-4 grid md:grid-cols-2 gap-4`}>
+        <div className={`p-4 grid relative md:grid-cols-3 gap-4`}>
           {/* Images */}
-          <div>
-            <img
-              src={project.img_path}
-              alt={project.name}
-              width={500}
-              height={250}
-              className={`w-full`}
-            />
+          <div className={`flex flex-col gap-4 md:col-span-2`}>
+            {project.img_path.map((img, index) => (
+              <img
+                key={index}
+                src={img}
+                alt={project.name}
+                width={500}
+                height={250}
+                className={`w-full`}
+                draggable={false}
+              />
+            ))}
           </div>
 
-          <div className={`space-y-4`}>
+          <div className={`space-y-4 sticky h-fit top-20`}>
             {/* Tech Stack */}
             <div className={`flex gap-2 items-center`}>
               {project.tech.map((tech, index) => (
