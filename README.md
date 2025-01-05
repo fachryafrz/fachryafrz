@@ -21,7 +21,7 @@
 </p>
 
 <h3>Get in touch</h3>
-<p align="left" style="display: flex; gap: 0.5rem;">
+<p align="left">
   <a href="mailto:fachrydwiafriza@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
