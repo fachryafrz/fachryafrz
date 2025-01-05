@@ -1,3 +1,9 @@
+import PixelCursorTrailing from "@/components/pixel-cursor-trailing/page";
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <PixelCursorTrailing />
+    </div>
+  );
 }
