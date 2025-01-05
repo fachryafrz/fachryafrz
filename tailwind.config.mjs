@@ -13,6 +13,7 @@ export default {
         "fira-code": ["Fira Code", "monospace"],
       },
       colors: {
+        bg: "#1a1a1a",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -58,6 +59,9 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      boxShadow: {
+        accent: "4px 4px 0 0 #c18971",
       },
     },
   },

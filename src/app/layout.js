@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
+import SmoothScroll from "@/components/smooth-scroll";
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_APP_NAME,
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <SmoothScroll>{children}</SmoothScroll>
         </ThemeProvider>
       </body>
     </html>

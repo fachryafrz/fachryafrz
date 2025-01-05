@@ -9,7 +9,7 @@ export default function PixelCursorTrailing() {
 
   const colorize = (el) => {
     el.style.backgroundColor = `#c18971`;
-    el.style.border = `1px solid #1a1a1a`;
+    el.style.border = `4px solid #1a1a1a`;
     setTimeout(() => {
       el.style.backgroundColor = `transparent`;
     }, 3e2);
