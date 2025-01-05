@@ -16,7 +16,7 @@ export default function ProjectMouseHover() {
   const projects = rawProjects.slice().reverse();
 
   return (
-    <div className={`p4 lg:p-24`}>
+    <div className={`px-4 lg:px-24`}>
       <h2 className={`sr-only`}>Projects</h2>
 
       <ul>
@@ -44,7 +44,7 @@ function ProjectCard({ project, index, setModal }) {
   return (
     <div
     // onMouseEnter={() => setModal({ active: true, index })}
-    // onMouseLeave={() => setModal({ active: false, index })} 
+    // onMouseLeave={() => setModal({ active: false, index })}
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
@@ -54,7 +54,9 @@ function ProjectCard({ project, index, setModal }) {
       >
         <h3 className={`text-3xl text-start`}>{project.name}</h3>
 
-        <span className={`text-end text-accent`}>{project.type}</span>
+        <span className={`text-start sm:text-end text-accent`}>
+          {project.type}
+        </span>
       </button>
 
       {isOpen && (
