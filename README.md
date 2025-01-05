@@ -1,37 +1,36 @@
-![fachryafrz-Banner](/images/banner.png)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p>
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=C18B73&width=400&height=30&repeat=false&duration=3000&lines=My name is Fachry Dwi Afriza" 
-  />
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I'm a Front-End Web Developer with over 4 years of experience." 
-  />
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I have been passionate about creating amazing web applications" 
-  />
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=with the best user experience." 
-  />
-</p>
+## Getting Started
 
-<h3>Frameworks</h3>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=laravel,flutter,nextjs,nuxtjs" />
-</p>
+First, run the development server:
 
-<h3>Get in touch</h3>
-<p align="left" style="display: flex; gap: 0.5rem;">
-  <a href="mailto:fachrydwiafriza@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" />
-  </a>
-  <a href="https://linkedin.com/in/fachryafrz/">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-</p>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake.svg" />
-</picture>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
