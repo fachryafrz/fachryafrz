@@ -1,11 +1,11 @@
-![fachryafrz-Banner](/images/banner.png)
+![fachryafrz-Banner](/images/banner.gif)
 
 <p>
+  <img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=C18B73&width=400&height=30&repeat=true&duration=3000&lines=Hello!;Hola!;Bonjour!;Ciao!;Hallo!;Hej!;Ni+hao!;Konnichiwa!;Annyeonghaseyo!;Merhaba!;Shalom!;Sawadee!;Salam!;Olá!;Namaste!;Zdravstvuyte!;Ahoj!;Szia!;Selam!;Kalimera!"
+/>
   <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=C18B73&width=400&height=30&repeat=false&duration=3000&lines=My name is Fachry Dwi Afriza" 
-  />
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I'm a Front-End Web Developer with over 4 years of experience." 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I'm a Front-End Web Developer." 
   />
   <img 
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I have been passionate about creating amazing web applications" 
