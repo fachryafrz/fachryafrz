@@ -1,4 +1,4 @@
-![fachryafrz-Banner](/images/banner.gif)
+![fachryafrz-Banner](/images/new-banner.gif)
 
 <p>
   <img
