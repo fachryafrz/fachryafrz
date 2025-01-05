@@ -44,7 +44,7 @@ function ProjectCard({ project, index, setModal }) {
   return (
     <div
     // onMouseEnter={() => setModal({ active: true, index })}
-    // onMouseLeave={() => setModal({ active: false, index })}
+    // onMouseLeave={() => setModal({ active: false, index })} 
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
