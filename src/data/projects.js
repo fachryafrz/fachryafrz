@@ -16,7 +16,7 @@ export const projects = [
     date: "2021-10-14",
     img_path: ["/projects/belgie-pro.png"],
     description:
-      "A promotional landing page for Belgie Pro skincare products, highlighting product features, benefits, and partnership opportunities.",
+      "A promotional landing page for Belgie Pro skincare products, highlighting product features, and benefits.",
     url: "https://fachryafrz.github.io/Effy-BelgiePro/",
     tech: ["HTML", "CSS", "JavaScript"],
     highlighted: false,
@@ -58,35 +58,38 @@ export const projects = [
     name: "Maze Group Indonesia",
     type: "Company Profile",
     date: "2022-07-07",
-    img_path: ["/projects/maze-group.png"],
+    img_path: [
+      "/projects/maze-group-indonesia/home.png",
+      "/projects/maze-group-indonesia/admin-panel.png",
+    ],
     description:
       "The official company profile website for Maze Group Indonesia, showcasing their portfolio and contact information.",
     url: "https://mazegroupindonesia.com",
     tech: ["NextJS", "Laravel", "TailwindCSS"],
     highlighted: false,
   },
-  {
-    name: "Snap - Frontend Mentor",
-    type: "Landing Page",
-    date: "2023-01-30",
-    img_path: ["/projects/snap-fm.png"],
-    description:
-      "A responsive landing page challenge from Frontend Mentor, featuring dropdown navigation menus and modern design elements.",
-    url: "https://fachryafrz.github.io/FMentor-intro-section-with-dropdown-navigation",
-    tech: ["TailwindCSS"],
-    highlighted: false,
-  },
-  {
-    name: "News - Frontend Mentor",
-    type: "Landing Page",
-    date: "2023-02-02",
-    img_path: ["/projects/news-fm.png"],
-    description:
-      "A news homepage layout challenge from Frontend Mentor, focusing on responsive design and content presentation.",
-    url: "https://fachryafrz.github.io/FMentor-news-homepage-main",
-    tech: ["TailwindCSS"],
-    highlighted: false,
-  },
+  // {
+  //   name: "Snap - Frontend Mentor",
+  //   type: "Landing Page",
+  //   date: "2023-01-30",
+  //   img_path: ["/projects/snap-fm.png"],
+  //   description:
+  //     "A responsive landing page challenge from Frontend Mentor, featuring dropdown navigation menus and modern design elements.",
+  //   url: "https://fachryafrz.github.io/FMentor-intro-section-with-dropdown-navigation",
+  //   tech: ["TailwindCSS"],
+  //   highlighted: false,
+  // },
+  // {
+  //   name: "News - Frontend Mentor",
+  //   type: "Landing Page",
+  //   date: "2023-02-02",
+  //   img_path: ["/projects/news-fm.png"],
+  //   description:
+  //     "A news homepage layout challenge from Frontend Mentor, focusing on responsive design and content presentation.",
+  //   url: "https://fachryafrz.github.io/FMentor-news-homepage-main",
+  //   tech: ["TailwindCSS"],
+  //   highlighted: false,
+  // },
   {
     name: "Popcorn Vision",
     type: "Web App",
@@ -123,7 +126,11 @@ export const projects = [
     name: "Ryth",
     type: "Web App",
     date: "2024-08-26",
-    img_path: ["/projects/ryth/home.png", "/projects/ryth/details.png", "/projects/ryth/mobile.png"],
+    img_path: [
+      "/projects/ryth/home.png",
+      "/projects/ryth/details.png",
+      "/projects/ryth/mobile.png",
+    ],
     description:
       "A music streaming web application, allowing users to listen to a wide variety of tracks and discover new music.",
     url: "https://ryth.vercel.app",
