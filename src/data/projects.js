@@ -36,7 +36,7 @@ export const projects = [
     name: "Koperasi Simpan Pinjam",
     type: "Web App",
     date: "2022-06-12",
-    img_path: ["/projects/ksp.png"],
+    img_path: ["/projects/ksp/home.png"],
     description:
       "A comprehensive web application designed to streamline financial operations for savings and loan cooperatives. It allows members to manage savings, loans, and repayments, with features for account management, report generation, and communication facilitation.",
     url: null,
@@ -47,7 +47,7 @@ export const projects = [
     name: "Koperasi Simpan Pinjam",
     type: "Mobile App",
     date: "2022-06-12",
-    img_path: ["/projects/ksp-mobile.png"],
+    img_path: ["/projects/ksp-mobile/register-&-home.png"],
     description:
       'A mobile application counterpart to the "Koperasi Simpan Pinjam web" app, offering on-the-go access to cooperative financial services.',
     url: null,
