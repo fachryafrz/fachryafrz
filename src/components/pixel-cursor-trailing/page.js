@@ -36,7 +36,7 @@ export default function PixelCursorTrailing() {
     <div id="container" className={` h-dvh flex items-center justify-center`}>
       <div
         id="body"
-        className={`pointer-events-none mix-blend-difference text-white text-center font-bold w-[70%] relative z-10 leading-tight`}
+        className={`pointer-events-none w-full px-4 mix-blend-difference text-white text-center font-bold xl:w-[70%] relative z-10 leading-tight`}
       >
         <div
           className={`font-tnr font-bold text-4xl flex flex-col items-center gap-2 sm:text-7xl sm:tracking-wide`}
