@@ -49,7 +49,7 @@ export const projects = [
     date: "2022-06-12",
     img_path: ["/projects/ksp-mobile/register-&-home.png"],
     description:
-      'A mobile application counterpart to the "Koperasi Simpan Pinjam web" app, offering on-the-go access to cooperative financial services.',
+      'A mobile application counterpart to the "Koperasi Simpan Pinjam" web app, offering on-the-go access to cooperative financial services.',
     url: null,
     tech: ["Flutter", "CodeIgniter"],
     highlighted: false,
