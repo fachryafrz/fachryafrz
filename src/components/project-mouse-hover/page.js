@@ -6,6 +6,12 @@ import { projects as rawProjects } from "@/data/projects";
 import { CalendarDays, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "../ui/tooltip";
 
 export default function ProjectMouseHover() {
   const [modal, setModal] = useState({
@@ -65,7 +71,8 @@ function ProjectCard({ project, index, setModal }) {
               <img
                 key={index}
                 src={img}
-                alt={project.name}
+                alt={``}
+                role={`presentation`}
                 width={500}
                 height={250}
                 className={`w-full`}
@@ -79,13 +86,23 @@ function ProjectCard({ project, index, setModal }) {
             <div className={`flex gap-2 items-center`}>
               {project.tech.map((tech, index) => (
                 <span key={index} className={`mr-2`}>
-                  <img
-                    src={`/tech/${tech}.png`}
-                    alt={tech}
-                    width={50}
-                    height={50}
-                    draggable={false}
-                  />
+                  <TooltipProvider>
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <img
+                          src={`/tech/${encodeURI(tech)}.png`}
+                          alt={``}
+                          role={`presentation`}
+                          width={50}
+                          height={50}
+                          draggable={false}
+                        />
+                      </TooltipTrigger>
+                      <TooltipContent side={`bottom`}>
+                        <p>{decodeURI(tech)}</p>
+                      </TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
                 </span>
               ))}
             </div>

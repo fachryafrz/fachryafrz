@@ -40,7 +40,7 @@ export const projects = [
     description:
       "A comprehensive web application designed to streamline financial operations for savings and loan cooperatives. It allows members to manage savings, loans, and repayments, with features for account management, report generation, and communication facilitation.",
     url: null,
-    tech: ["HTML", "CSS", "JavaScript", "CodeIgniter"],
+    tech: [ "CodeIgniter", "PHP"],
     highlighted: false,
   },
   {
@@ -65,7 +65,7 @@ export const projects = [
     description:
       "The official company profile website for Maze Group Indonesia, showcasing their portfolio and contact information.",
     url: "https://mazegroupindonesia.com",
-    tech: ["NextJS", "Laravel", "TailwindCSS"],
+    tech: ["Next.js", "React", "Laravel", "PHP", "Tailwind CSS"],
     highlighted: false,
   },
   // {
@@ -76,7 +76,7 @@ export const projects = [
   //   description:
   //     "A responsive landing page challenge from Frontend Mentor, featuring dropdown navigation menus and modern design elements.",
   //   url: "https://fachryafrz.github.io/FMentor-intro-section-with-dropdown-navigation",
-  //   tech: ["TailwindCSS"],
+  //   tech: ["Tailwind CSS"],
   //   highlighted: false,
   // },
   // {
@@ -87,7 +87,7 @@ export const projects = [
   //   description:
   //     "A news homepage layout challenge from Frontend Mentor, focusing on responsive design and content presentation.",
   //   url: "https://fachryafrz.github.io/FMentor-news-homepage-main",
-  //   tech: ["TailwindCSS"],
+  //   tech: ["Tailwind CSS"],
   //   highlighted: false,
   // },
   {
@@ -104,7 +104,7 @@ export const projects = [
     description:
       "A powerful platform for movie and TV show enthusiasts, offering detailed information, reviews, and cast details. The intuitive search functionality enhances user experience.",
     url: "https://popcornvision.vercel.app",
-    tech: ["NextJS", "ReactJS", "TailwindCSS"],
+    tech: ["Next.js", "React", "Tailwind CSS", "Material UI", "TMDB API"],
     highlighted: true,
   },
   {
@@ -119,7 +119,7 @@ export const projects = [
     description:
       "A modern web application dedicated to gaming, providing up-to-date information on a wide range of games, from popular titles to upcoming releases, with a user-friendly interface.",
     url: "https://ryplay.vercel.app",
-    tech: ["Nuxt", "Vue", "TailwindCSS"],
+    tech: ["Nuxt", "Vue", "Tailwind CSS", "IGDB API"],
     highlighted: true,
   },
   {
@@ -134,7 +134,7 @@ export const projects = [
     description:
       "A music streaming web application, allowing users to listen to a wide variety of tracks and discover new music.",
     url: "https://ryth.vercel.app",
-    tech: ["NextJS", "ReactJS", "TailwindCSS"],
+    tech: ["Next.js", "React", "Tailwind CSS", "Spotify API"],
     highlighted: true,
   },
 ];
