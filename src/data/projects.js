@@ -38,7 +38,7 @@ export const projects = [
     date: "2022-06-12",
     img_path: ["/projects/ksp/home.png"],
     description:
-      "A comprehensive web application designed to streamline financial operations for savings and loan cooperatives. It allows members to manage savings, loans, and repayments, with features for account management, report generation, and communication facilitation.",
+      "A comprehensive web application designed to streamline financial operations for savings and loan cooperatives. It allows members to manage savings, loans, and repayments, with features for account management, and report generation.",
     url: null,
     tech: [ "CodeIgniter", "PHP"],
     highlighted: false,
