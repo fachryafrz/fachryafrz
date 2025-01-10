@@ -40,7 +40,7 @@ export const projects = [
     description:
       "A comprehensive web application designed to streamline financial operations for savings and loan cooperatives. It allows members to manage savings, loans, and repayments, with features for account management, and report generation.",
     url: null,
-    tech: [ "CodeIgniter", "PHP"],
+    tech: ["CodeIgniter", "PHP"],
     highlighted: false,
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
     description:
       'A mobile application counterpart to the "Koperasi Simpan Pinjam" web app, offering on-the-go access to cooperative financial services.',
     url: null,
-    tech: ["Flutter", "CodeIgniter"],
+    tech: ["Flutter", "Dart", "CodeIgniter", "PHP"],
     highlighted: false,
   },
   {

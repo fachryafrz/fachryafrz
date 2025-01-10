@@ -58,18 +58,16 @@ export default function PixelCursorTrailing() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .callFunction((cb) => {
-                  cb.elements.cursor.style.display = "none";
-                })
                 .pauseFor(2500)
                 .callFunction((cb) => {
-                  cb.elements.cursor.style.display = "inline";
+                  cb.elements.cursor.classList.remove("hidden");
                 })
                 .typeString("Front-End Web Developer")
-                .callFunction((cb) => {
-                  // cb.elements.cursor.style.display = "none";
-                })
                 .start();
+            }}
+            options={{
+              delay: 110,
+              cursorClassName: "Typewriter__cursor hidden",
             }}
           />
         </div>
