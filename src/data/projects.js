@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Rekrut.",
-    type: "Web App",
+    type: "Landing Page",
     date: "2021-06-13",
     img_path: ["/projects/rekrut.png"],
     description:
