@@ -6,7 +6,7 @@ export const projects = [
     img_path: ["/projects/rekrut.png"],
     description:
       "Rekrut is a user-friendly job website where you can find job vacancies based on location and salary preferences. Companies can post openings and connect with qualified candidates. It's a seamless platform bridging employers and job seekers.",
-    url: "https://fachryafrz.github.io/WP1-Rekrut/",
+    url: "https://fachryafrz-rekrut.netlify.app",
     tech: ["HTML", "CSS", "JavaScript"],
     highlighted: false,
   },
@@ -17,7 +17,7 @@ export const projects = [
     img_path: ["/projects/belgie-pro.png"],
     description:
       "A promotional landing page for Belgie Pro skincare products, highlighting product features, and benefits.",
-    url: "https://fachryafrz.github.io/Effy-BelgiePro/",
+    url: "https://belgiepropasarminggu.netlify.app",
     tech: ["HTML", "CSS", "JavaScript"],
     highlighted: false,
   },
@@ -28,7 +28,7 @@ export const projects = [
     img_path: ["/projects/british-propolis.png"],
     description:
       "A marketing landing page for British Propolis, emphasizing natural health solutions and business partnership opportunities.",
-    url: "https://fachryafrz.github.io/Effy-BritishPropolis/",
+    url: "https://bp-effy.netlify.app",
     tech: ["HTML", "CSS", "JavaScript"],
     highlighted: false,
   },
