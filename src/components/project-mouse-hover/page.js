@@ -3,7 +3,7 @@
 
 import ModalProjectCard from "@/components/modal/project-card";
 import { projects as rawProjects } from "@/data/projects";
-import { CalendarDays, ExternalLink } from "lucide-react";
+import { CalendarDays, ExternalLink, Github } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import {
@@ -12,6 +12,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "../ui/tooltip";
+import { Button } from "../ui/button";
 
 export default function ProjectMouseHover() {
   const [modal, setModal] = useState({
@@ -121,16 +122,32 @@ function ProjectCard({ project, index, setModal }) {
             <p>{project.description}</p>
 
             {/* CTA */}
-            {project.url && (
-              <Link
-                href={project.url}
-                target={`_blank`}
-                className={`btn-primary`}
-              >
-                <span>Check it out!</span>
-                <ExternalLink size={14} />
-              </Link>
-            )}
+            <div className={`flex gap-2 items-center`}>
+              {project.url && (
+                <Link
+                  href={project.url}
+                  target={`_blank`}
+                  className={`btn-primary`}
+                >
+                  <span>Check it out!</span>
+                  <ExternalLink size={14} />
+                </Link>
+              )}
+
+              {project.github_url && (
+                <Button
+                  asChild
+                  variant="outline"
+                  className={`hover:bg-white hover:text-background`}
+                >
+                  <Link href={project.github_url} target={`_blank`}>
+                    <Github />
+                    <span>GitHub</span>
+                    <ExternalLink />
+                  </Link>
+                </Button>
+              )}
+            </div>
           </div>
         </div>
       )}

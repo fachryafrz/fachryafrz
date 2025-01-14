@@ -104,6 +104,7 @@ export const projects = [
     description:
       "A powerful platform for movie and TV show enthusiasts, offering detailed information, reviews, and cast details. The intuitive search functionality enhances user experience.",
     url: "https://popcornvision.vercel.app",
+    github_url: "https://github.com/fachryafrz/popcorn-vision",
     tech: ["Next.js", "React", "Tailwind CSS", "Material UI", "TMDB API"],
     highlighted: true,
   },
@@ -119,6 +120,7 @@ export const projects = [
     description:
       "A modern web application dedicated to gaming, providing up-to-date information on a wide range of games, from popular titles to upcoming releases, with a user-friendly interface.",
     url: "https://ryplay.vercel.app",
+    github_url: "https://github.com/fachryafrz/ryplay",
     tech: ["Nuxt", "Vue", "Tailwind CSS", "IGDB API"],
     highlighted: true,
   },
@@ -134,6 +136,7 @@ export const projects = [
     description:
       "A music streaming web application, allowing users to listen to a wide variety of tracks and discover new music.",
     url: "https://ryth.vercel.app",
+    github_url: "https://github.com/fachryafrz/ryth",
     tech: ["Next.js", "React", "Tailwind CSS", "Spotify API"],
     highlighted: true,
   },
