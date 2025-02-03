@@ -18,9 +18,18 @@ import {
   AccordionTrigger,
 } from "../ui/accordion";
 import Image from "next/image";
+import { useImageSlider } from "@/zustand/image-slider";
 
 export default function ProjectAccordion() {
   const projects = rawProjects.slice().reverse();
+  const { open, setOpen, setImages, selectedIndex, setSelectedIndex } =
+    useImageSlider();
+
+  const handleSetImagesSlider = (index, imgIndex) => {
+    setImages(projects[index].img_path);
+    setSelectedIndex(imgIndex);
+    setOpen(!open);
+  };
 
   return (
     <div>
@@ -48,9 +57,9 @@ export default function ProjectAccordion() {
                 >
                   {/* Images */}
                   <div className={`flex flex-col gap-4 lg:col-span-2`}>
-                    {project.img_path.map((img, index) => (
+                    {project.img_path.map((img, imgIndex) => (
                       <Image
-                        key={index}
+                        key={imgIndex}
                         src={img}
                         alt={``}
                         role={`presentation`}
@@ -59,6 +68,7 @@ export default function ProjectAccordion() {
                         height={768}
                         className={`w-full`}
                         draggable={false}
+                        onClick={() => handleSetImagesSlider(index, imgIndex)}
                       />
                     ))}
                   </div>
