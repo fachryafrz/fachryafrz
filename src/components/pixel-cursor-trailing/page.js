@@ -53,7 +53,7 @@ export default function PixelCursorTrailing() {
           />
         </div>
         <div
-          className={`mt-4 text-xs font-fira-code text-accent sm:text-base font-medium`}
+          className={`mt-4 font-fira-code text-accent font-medium`}
         >
           <Typewriter
             onInit={(typewriter) => {

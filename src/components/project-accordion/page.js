@@ -17,6 +17,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "../ui/accordion";
+import Image from "next/image";
 
 export default function ProjectAccordion() {
   const projects = rawProjects.slice().reverse();
@@ -48,13 +49,14 @@ export default function ProjectAccordion() {
                   {/* Images */}
                   <div className={`flex flex-col gap-4 lg:col-span-2`}>
                     {project.img_path.map((img, index) => (
-                      <img
+                      <Image
                         key={index}
                         src={img}
                         alt={``}
                         role={`presentation`}
-                        width={500}
-                        height={250}
+                        quality={100}
+                        width={1024}
+                        height={768}
                         className={`w-full`}
                         draggable={false}
                       />
@@ -103,14 +105,16 @@ export default function ProjectAccordion() {
                     {/* CTA */}
                     <div className={`flex gap-2 items-center`}>
                       {project.url && (
-                        <Link
-                          href={project.url}
-                          target={`_blank`}
-                          className={`btn-primary`}
+                        <Button
+                          asChild
+                          variant="outline"
+                          className={`bg-transparent border-accent text-accent`}
                         >
-                          <span>Check it out!</span>
-                          <ExternalLink size={14} />
-                        </Link>
+                          <Link href={project.url} target={`_blank`}>
+                            <span>Check it out!</span>
+                            <ExternalLink />
+                          </Link>
+                        </Button>
                       )}
 
                       {project.github_url && (
@@ -122,7 +126,6 @@ export default function ProjectAccordion() {
                           <Link href={project.github_url} target={`_blank`}>
                             <Github />
                             <span>GitHub</span>
-                            <ExternalLink />
                           </Link>
                         </Button>
                       )}
