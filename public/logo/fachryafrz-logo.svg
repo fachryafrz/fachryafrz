@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+	<title>New Project</title>
+	<defs>
+		<image  width="1000" height="1000" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoAQMAAAB3bUanAAAAAXNSR0IB2cksfwAAAANQTFRFGhoa+4QY3QAAAcVJREFUeJztzTEBAAAMAqDZv/RieAgFyDXFbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xb7wP5ohAPpW9we0QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #c18b73 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="F." class="s0" aria-label="F."  d="m514 215.3h-138v246h114q39.3 0 57.3-17.1 18.4-17.5 24.4-68.8h17.1v211.9h-17.1q-0.4-36.5-9.7-53.6-8.7-17-24.9-25.3-15.7-8.8-47.1-8.8h-114v196.6q0 47.6 6 62.8 4.6 11.5 19.4 19.8 20.3 11.1 42.5 11.1h22.6v17.1h-268.7v-17.1h22.2q38.8 0 56.3-22.6 11.1-14.8 11.1-71.1v-404.3q0-47.6-6-62.8-4.6-11.5-18.9-19.8-19.9-11.1-42.5-11.1h-22.2v-17.1h465.8l6 137.6h-16.2q-12-43.9-28.1-64.2-15.7-20.8-39.3-30-23-9.2-72-9.2zm236.8 502.2q21.7 0 36.5 15.2 14.8 14.8 14.8 36 0 21.2-15.3 36.5-14.7 14.7-36 14.7-21.2 0-36.4-14.7-14.8-15.3-14.8-36.5 0-21.7 14.8-36.5 15.2-14.7 36.4-14.7z"/>
+</svg>
