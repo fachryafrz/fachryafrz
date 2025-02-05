@@ -140,4 +140,18 @@ export const projects = [
     tech: ["Next.js", "React", "Tailwind CSS", "Spotify API"],
     highlighted: true,
   },
+  {
+    name: "Visionalyze",
+    type: "Web App",
+    date: "2025-02-05",
+    img_path: [
+      "/projects/visionalyze/home.png",
+    ],
+    description:
+      "AI-powered image analysis tool that helps analyze images with ease.",
+    url: "https://visionalyze.vercel.app",
+    github_url: "https://github.com/fachryafrz/visionalyze",
+    tech: ["Next.js", "React", "Tailwind CSS", "shadcn", "Gemini API"],
+    highlighted: true,
+  },
 ];
