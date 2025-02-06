@@ -151,7 +151,7 @@ export const projects = [
       "AI-powered image analysis tool that helps analyze images with ease.",
     url: "https://visionalyze.vercel.app",
     github_url: "https://github.com/fachryafrz/visionalyze",
-    tech: ["Next.js", "React", "Tailwind CSS", "shadcn", "Gemini API"],
+    tech: ["Next.js", "React", "Tailwind CSS", "shadcn", "Gemini API", "Typescript"],
     highlighted: true,
   },
 ];
