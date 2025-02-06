@@ -25,6 +25,7 @@ import { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import axios from "axios";
 
 export default function ProjectAccordion() {
   const projects = rawProjects.slice().reverse();
@@ -215,16 +216,14 @@ function ProjectDescription({ project }) {
 
   useEffect(() => {
     const fetchDescription = async () => {
-      const data = await fetch(project.description);
+      const { data, status } = await axios.get(project.description);
 
-      if (data.status !== 200) {
+      if (status !== 200) {
         setDescriptionMarkdown(project.description);
         return;
       }
 
-      const parseData = await data.text();
-
-      setDescriptionMarkdown(parseData);
+      setDescriptionMarkdown(data);
     };
 
     fetchDescription();
