@@ -65,7 +65,7 @@ export const projects = [
     description:
       "The official company profile website for Maze Group Indonesia, showcasing their portfolio and contact information.",
     url: "https://mazegroupindonesia.com",
-    tech: ["Next.js", "React", "Laravel", "PHP", "Tailwind CSS"],
+    tech: ["Next.js", "React", "Laravel", "PHP", "Tailwind CSS", "daisyUI"],
     highlighted: false,
   },
   // {
@@ -105,7 +105,7 @@ export const projects = [
       "A powerful platform for movie and TV show enthusiasts, offering detailed information, reviews, and cast details. The intuitive search functionality enhances user experience.",
     url: "https://popcornvision.vercel.app",
     github_url: "https://github.com/fachryafrz/popcorn-vision",
-    tech: ["Next.js", "React", "Tailwind CSS", "Material UI", "TMDB API"],
+    tech: ["Next.js", "React", "Tailwind CSS", "daisyUI", "Material UI", "TMDB API"],
     highlighted: true,
   },
   {
@@ -121,7 +121,7 @@ export const projects = [
       "A modern web application dedicated to gaming, providing up-to-date information on a wide range of games, from popular titles to upcoming releases, with a user-friendly interface.",
     url: "https://ryplay.vercel.app",
     github_url: "https://github.com/fachryafrz/ryplay",
-    tech: ["Nuxt", "Vue", "Tailwind CSS", "IGDB API"],
+    tech: ["Nuxt", "Vue", "Tailwind CSS", "daisyUI", "IGDB API"],
     highlighted: true,
   },
   {
@@ -137,7 +137,7 @@ export const projects = [
       "A music streaming web application, allowing users to listen to a wide variety of tracks and discover new music.",
     url: "https://ryth.vercel.app",
     github_url: "https://github.com/fachryafrz/ryth",
-    tech: ["Next.js", "React", "Tailwind CSS", "Spotify API"],
+    tech: ["Next.js", "React", "Tailwind CSS", "daisyUI", "Spotify API"],
     highlighted: true,
   },
   {
