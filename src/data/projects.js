@@ -102,7 +102,7 @@ export const projects = [
       "/projects/popcorn-vision/search.png",
     ],
     description:
-      "A powerful platform for movie and TV show enthusiasts, offering detailed information, reviews, and cast details. The intuitive search functionality enhances user experience.",
+      "https://raw.githubusercontent.com/fachryafrz/popcorn-vision/master/README_TEXT_ONLY.md",
     url: "https://popcornvision.vercel.app",
     github_url: "https://github.com/fachryafrz/popcorn-vision",
     tech: ["Next.js", "React", "Tailwind CSS", "daisyUI", "Material UI", "TMDB API"],
@@ -118,7 +118,7 @@ export const projects = [
       "/projects/ryplay/search.png",
     ],
     description:
-      "A modern web application dedicated to gaming, providing up-to-date information on a wide range of games, from popular titles to upcoming releases, with a user-friendly interface.",
+      "https://raw.githubusercontent.com/fachryafrz/ryplay/master/README_TEXT_ONLY.md",
     url: "https://ryplay.vercel.app",
     github_url: "https://github.com/fachryafrz/ryplay",
     tech: ["Nuxt", "Vue", "Tailwind CSS", "daisyUI", "IGDB API"],
@@ -134,7 +134,7 @@ export const projects = [
       "/projects/ryth/mobile.png",
     ],
     description:
-      "A music streaming web application, allowing users to listen to a wide variety of tracks and discover new music.",
+      "https://raw.githubusercontent.com/fachryafrz/ryth/master/README_TEXT_ONLY.md",
     url: "https://ryth.vercel.app",
     github_url: "https://github.com/fachryafrz/ryth",
     tech: ["Next.js", "React", "Tailwind CSS", "daisyUI", "Spotify API"],
@@ -148,7 +148,7 @@ export const projects = [
       "/projects/visionalyze/home.png",
     ],
     description:
-      "AI-powered image analysis tool that helps analyze images with ease.",
+      "https://raw.githubusercontent.com/fachryafrz/visionalyze/master/README_TEXT_ONLY.md",
     url: "https://visionalyze.vercel.app",
     github_url: "https://github.com/fachryafrz/visionalyze",
     tech: ["Next.js", "React", "Tailwind CSS", "shadcn", "Gemini API", "Typescript"],

@@ -19,6 +19,12 @@ import {
 } from "../ui/accordion";
 import Image from "next/image";
 import { useImageSlider } from "@/zustand/image-slider";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode } from "swiper/modules";
+import { useEffect, useState } from "react";
+import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 
 export default function ProjectAccordion() {
   const projects = rawProjects.slice().reverse();
@@ -53,27 +59,78 @@ export default function ProjectAccordion() {
               </AccordionTrigger>
               <AccordionContent>
                 <div
-                  className={`px-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4`}
+                  className={`px-4 grid md:grid-cols-2 lg:grid-cols-2 gap-4`}
                 >
                   {/* Images */}
-                  <div className={`flex flex-col gap-4 lg:col-span-2`}>
-                    {project.img_path.map((img, imgIndex) => (
-                      <Image
-                        key={imgIndex}
-                        src={img}
-                        alt={``}
-                        role={`presentation`}
-                        quality={100}
-                        width={1024}
-                        height={768}
-                        className={`w-full`}
-                        draggable={false}
-                        onClick={() => handleSetImagesSlider(index, imgIndex)}
-                      />
-                    ))}
+                  <div className={`lg:col-span-1`}>
+                    <div
+                      className={`h-fit sticky flex flex-col gap-4 top-[68px]`}
+                    >
+                      {project.img_path.map((img, imgIndex) => (
+                        <div key={imgIndex}>
+                          <Image
+                            src={img}
+                            alt={``}
+                            role={`presentation`}
+                            quality={100}
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{
+                              width: "100%",
+                              height: "auto",
+                              maxHeight: "500px",
+                            }}
+                            className={``}
+                            draggable={false}
+                            onClick={() =>
+                              handleSetImagesSlider(index, imgIndex)
+                            }
+                          />
+                        </div>
+                      ))}
+                    </div>
                   </div>
 
-                  <div className={`space-y-4 sticky h-fit top-[68px]`}>
+                  {/* <div className={`-mx-4`}>
+                    <Swiper
+                      modules={[FreeMode]}
+                      slidesPerView={`auto`}
+                      spaceBetween={16}
+                      freeMode
+                      className="w-full !px-4"
+                    >
+                      {project.img_path.map((img, imgIndex) => (
+                        <SwiperSlide
+                          key={imgIndex}
+                          className={`!w-fit max-w-[calc(100%/1.75)]`}
+                        >
+                          <Image
+                            src={img}
+                            alt={``}
+                            role={`presentation`}
+                            quality={100}
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{
+                              width: "auto",
+                              height: "auto",
+                              maxHeight: "400px",
+                              objectFit: `contain`,
+                            }}
+                            className={``}
+                            draggable={false}
+                            onClick={() =>
+                              handleSetImagesSlider(index, imgIndex)
+                            }
+                          />
+                        </SwiperSlide>
+                      ))}
+                    </Swiper>
+                  </div> */}
+
+                  <div className={`space-y-4 h-fit sticky top-[68px]`}>
                     {/* Tech Stack */}
                     <div className={`flex gap-2 items-center`}>
                       {project.tech.map((tech, index) => (
@@ -110,7 +167,7 @@ export default function ProjectAccordion() {
                     </div>
 
                     {/* Description */}
-                    <p>{project.description}</p>
+                    <ProjectDescription project={project} />
 
                     {/* CTA */}
                     <div className={`flex gap-2 items-center`}>
@@ -150,5 +207,36 @@ export default function ProjectAccordion() {
 
       {/* <ModalProjectCard modal={modal} projects={projects} /> */}
     </div>
+  );
+}
+
+function ProjectDescription({ project }) {
+  const [descriptionMarkdown, setDescriptionMarkdown] = useState(``);
+
+  useEffect(() => {
+    const fetchDescription = async () => {
+      const data = await fetch(project.description);
+
+      if (data.status !== 200) {
+        setDescriptionMarkdown(project.description);
+        return;
+      }
+
+      const parseData = await data.text();
+
+      setDescriptionMarkdown(parseData);
+    };
+
+    fetchDescription();
+  }, [project]);
+
+  return (
+    <Markdown
+      remarkPlugins={[remarkGfm]}
+      rehypePlugins={[rehypeRaw]}
+      className="prose [&_*]:text-white [&_*]:text-pretty prose-p:!text-neutral-400 prose-li:!text-neutral-400"
+    >
+      {descriptionMarkdown}
+    </Markdown>
   );
 }
