@@ -216,14 +216,13 @@ function ProjectDescription({ project }) {
 
   useEffect(() => {
     const fetchDescription = async () => {
-      const { data, status } = await axios.get(project.description);
+      try {
+        const { data } = await axios.get(project.description);
 
-      if (status !== 200) {
+        setDescriptionMarkdown(data);
+      } catch (error) {
         setDescriptionMarkdown(project.description);
-        return;
       }
-
-      setDescriptionMarkdown(data);
     };
 
     fetchDescription();
