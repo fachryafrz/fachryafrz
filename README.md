@@ -1,6 +1,6 @@
 [![fachryafrz-Banner](/images/banner.gif)](https://fachryafrz.vercel.app)
 
-<p>
+<div>
   <img
   src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=C18B73&width=400&height=30&repeat=true&duration=3000&lines=Hello!;Hola!;Bonjour!;Ciao!;Hallo!;Hej!;Ni+hao!;Konnichiwa!;Annyeonghaseyo!;Merhaba!;Shalom!;Sawadee!;Salam!;Olá!;Namaste!;Zdravstvuyte!;Ahoj!;Szia!;Selam!;Kalimera!"
 />
@@ -13,22 +13,29 @@
   <img 
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=with the best user experience." 
   />
-</p>
+</div>
 
-<h3>Frameworks</h3>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=laravel,flutter,nextjs,nuxtjs" />
-</p>
+### Frameworks
 
-<h3>Get in touch</h3>
-<p align="left">
-  <a href="mailto:fachrydwiafriza@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" />
-  </a>
-  <a href="https://linkedin.com/in/fachryafrz/">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-</p>
+![CodeIgniter](assets/icons/codeigniter.svg)
+![Laravel](https://skillicons.dev/icons?i=laravel)
+![Flutter](https://skillicons.dev/icons?i=flutter)
+![Next.js](https://skillicons.dev/icons?i=nextjs)
+![Astro](assets/icons/astro.svg)
+![Nuxt](https://skillicons.dev/icons?i=nuxt)
+![Expo](assets/icons/expo.svg)
+
+### UI Libraries
+
+![Bootstrap](https://skillicons.dev/icons?i=bootstrap)
+![TailwindCSS](https://skillicons.dev/icons?i=tailwindcss)
+![Material UI](https://skillicons.dev/icons?i=materialui)
+![ShadCN](assets/icons/shadcn.svg)
+
+### Get in touch
+
+[![GMail](https://skillicons.dev/icons?i=gmail)](mailto:fachrydwiafriza@gmail.com)
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/fachryafrz)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake-dark.svg" />
