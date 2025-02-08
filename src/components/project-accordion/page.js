@@ -170,33 +170,35 @@ export default function ProjectAccordion() {
                     <ProjectDescription project={project} />
 
                     {/* CTA */}
-                    <div className={`flex gap-2 items-center`}>
-                      {project.url && (
-                        <Button
-                          asChild
-                          variant="outline"
-                          className={`bg-transparent border-accent text-accent`}
-                        >
-                          <Link href={project.url} target={`_blank`}>
-                            <span>Check it out!</span>
-                            <ExternalLink />
-                          </Link>
-                        </Button>
-                      )}
+                    {(project.url || project.github_url) && (
+                      <div className={`flex gap-2 items-center`}>
+                        {project.url && (
+                          <Button
+                            asChild
+                            variant="outline"
+                            className={`bg-transparent border-accent text-accent`}
+                          >
+                            <Link href={project.url} target={`_blank`}>
+                              <span>Check it out!</span>
+                              <ExternalLink />
+                            </Link>
+                          </Button>
+                        )}
 
-                      {project.github_url && (
-                        <Button
-                          asChild
-                          variant="outline"
-                          className={`hover:bg-white hover:text-background`}
-                        >
-                          <Link href={project.github_url} target={`_blank`}>
-                            <Github />
-                            <span>GitHub</span>
-                          </Link>
-                        </Button>
-                      )}
-                    </div>
+                        {project.github_url && (
+                          <Button
+                            asChild
+                            variant="outline"
+                            className={`hover:bg-white hover:text-background`}
+                          >
+                            <Link href={project.github_url} target={`_blank`}>
+                              <Github />
+                              <span>GitHub</span>
+                            </Link>
+                          </Button>
+                        )}
+                      </div>
+                    )}
                   </div>
                 </div>
               </AccordionContent>
