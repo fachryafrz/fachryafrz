@@ -26,6 +26,7 @@ import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import axios from "axios";
+import useSWR from "swr";
 
 export default function ProjectAccordion() {
   const projects = rawProjects.slice().reverse();
@@ -213,21 +214,15 @@ export default function ProjectAccordion() {
 }
 
 function ProjectDescription({ project }) {
-  const [descriptionMarkdown, setDescriptionMarkdown] = useState(``);
-
-  useEffect(() => {
-    const fetchDescription = async () => {
-      try {
-        const { data } = await axios.get(project.description);
-
-        setDescriptionMarkdown(data);
-      } catch (error) {
-        setDescriptionMarkdown(project.description);
-      }
-    };
-
-    fetchDescription();
-  }, [project]);
+  const { data } = useSWR(
+    project.description,
+    (query) => axios.get(query).then((res) => res.data),
+    {
+      revalidateIfStale: false,
+      revalidateOnFocus: false,
+      revalidateOnReconnect: false,
+    }
+  );
 
   return (
     <Markdown
@@ -235,7 +230,7 @@ function ProjectDescription({ project }) {
       rehypePlugins={[rehypeRaw]}
       className="prose [&_*]:text-white [&_*]:text-pretty prose-p:!text-neutral-400 prose-li:!text-neutral-400"
     >
-      {descriptionMarkdown}
+      {data}
     </Markdown>
   );
 }

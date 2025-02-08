@@ -1,0 +1,1 @@
+A comprehensive web application designed to streamline financial operations for savings and loan cooperatives. It allows members to manage savings, loans, and repayments, with features for account management, and report generation.

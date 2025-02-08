@@ -1,0 +1,1 @@
+Rekrut is a user-friendly job website where you can find job vacancies based on location and salary preferences. Companies can post openings and connect with qualified candidates. It's a seamless platform bridging employers and job seekers.

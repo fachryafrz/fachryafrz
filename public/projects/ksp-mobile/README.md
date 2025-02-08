@@ -1,0 +1,1 @@
+A mobile application counterpart to the "Koperasi Simpan Pinjam" web app, offering on-the-go access to cooperative financial services.
