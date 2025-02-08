@@ -145,7 +145,9 @@ export const projects = [
     type: "Web App",
     date: "2025-02-05",
     img_path: [
-      "/projects/visionalyze/home.png",
+      "/projects/visionalyze/upload.png",
+      "/projects/visionalyze/url.png",
+      "/projects/visionalyze/generate.png",
     ],
     description:
       "https://raw.githubusercontent.com/fachryafrz/visionalyze/master/README_TEXT_ONLY.md",
