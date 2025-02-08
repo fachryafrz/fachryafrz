@@ -80,7 +80,6 @@ export default function ProjectAccordion() {
                             style={{
                               width: "100%",
                               height: "auto",
-                              maxHeight: "500px",
                             }}
                             className={``}
                             draggable={false}

@@ -148,6 +148,7 @@ export const projects = [
       "/projects/visionalyze/upload.png",
       "/projects/visionalyze/url.png",
       "/projects/visionalyze/generate.png",
+      "/projects/visionalyze/results.png",
     ],
     description:
       "https://raw.githubusercontent.com/fachryafrz/visionalyze/master/README_TEXT_ONLY.md",
