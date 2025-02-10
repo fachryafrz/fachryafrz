@@ -1,10 +1,17 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Navigation, Zoom } from "swiper/modules";
+import {
+  FreeMode,
+  Keyboard,
+  Mousewheel,
+  Navigation,
+  Zoom,
+} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/zoom";
+
 import { useImageSlider } from "@/zustand/image-slider";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import {
@@ -13,12 +20,10 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog";
-import { useEffect, useState } from "react";
 
 export default function ImageSlider() {
-  const { open, setOpen, images, setImages, selectedIndex, setSelectedIndex } =
+  const { open, setOpen, images, selectedIndex, setSelectedIndex } =
     useImageSlider();
 
   const handleClose = () => {
@@ -65,8 +70,10 @@ export default function ImageSlider() {
         <div className={`flex items-center w-screen h-screen justify-center`}>
           <Swiper
             initialSlide={selectedIndex}
-            modules={[FreeMode, Zoom, Navigation]}
+            modules={[FreeMode, Zoom, Navigation, Keyboard, Mousewheel]}
             freeMode={false}
+            keyboard={true}
+            mousewheel={true}
             zoom
             navigation={{
               nextEl: "#next",
