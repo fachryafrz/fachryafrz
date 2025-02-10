@@ -6,9 +6,10 @@ import { useImageSlider } from "@/zustand/image-slider";
 
 export default function SmoothScroll({ children }) {
   const { open } = useImageSlider();
-  const lenis = new Lenis();
 
   useEffect(() => {
+    const lenis = new Lenis();
+
     function raf(time) {
       if (!open) {
         lenis.raf(time);
