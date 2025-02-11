@@ -25,12 +25,12 @@
 ![Nuxt](https://skillicons.dev/icons?i=nuxt)
 ![Expo](assets/icons/expo.svg)
 
-### UI Libraries
+<!-- ### UI Libraries -->
 
-![Bootstrap](https://skillicons.dev/icons?i=bootstrap)
+<!-- ![Bootstrap](https://skillicons.dev/icons?i=bootstrap)
 ![TailwindCSS](https://skillicons.dev/icons?i=tailwindcss)
 ![Material UI](https://skillicons.dev/icons?i=materialui)
-![ShadCN](assets/icons/shadcn.svg)
+![ShadCN](assets/icons/shadcn.svg) -->
 
 ### Get in touch
 
