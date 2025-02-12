@@ -2,30 +2,20 @@
 
 import { useEffect } from "react";
 import Lenis from "lenis";
-import { useImageSlider } from "@/zustand/image-slider";
 
 export default function SmoothScroll({ children }) {
-  const { open } = useImageSlider();
-
   useEffect(() => {
-    const lenis = new Lenis();
+    const lenis = new Lenis({
+      prevent: (node) => node.role === "dialog",
+    });
 
     function raf(time) {
-      if (!open) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
-      }
-    }
-
-    if (open) {
-      lenis.stop();
-    } else {
-      lenis.start();
+      lenis.raf(time);
       requestAnimationFrame(raf);
     }
 
-    return () => lenis.stop(); // Cleanup saat unmount
-  }, [open]);
+    requestAnimationFrame(raf);
+  }, []);
 
   return <>{children}</>;
 }
