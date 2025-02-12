@@ -59,7 +59,7 @@ export const projects = [
     ],
     description: "/projects/maze-group-indonesia/README.md",
     url: "https://mazegroupindonesia.com",
-    tech: ["Next.js", "React", "Laravel", "PHP", "Tailwind CSS", "daisyUI"],
+    tech: ["Next.js", "React", "Laravel", "PHP", "daisyUI", "Tailwind CSS",],
     highlighted: false,
   },
   // {
@@ -101,8 +101,8 @@ export const projects = [
     tech: [
       "Next.js",
       "React",
-      "Tailwind CSS",
       "daisyUI",
+      "Tailwind CSS",
       "Material UI",
       "TMDB API",
     ],
@@ -131,7 +131,7 @@ export const projects = [
     description: "/projects/ryplay/README.md",
     url: "https://ryplay.vercel.app",
     github_url: "https://github.com/fachryafrz/ryplay",
-    tech: ["Nuxt", "Vue", "Tailwind CSS", "daisyUI", "IGDB API"],
+    tech: ["Nuxt", "Vue", "daisyUI", "Tailwind CSS", "IGDB API", "Supabase"],
     highlighted: true,
   },
   {
@@ -146,7 +146,7 @@ export const projects = [
     description: "/projects/ryth/README.md",
     url: "https://ryth.vercel.app",
     github_url: "https://github.com/fachryafrz/ryth",
-    tech: ["Next.js", "React", "Tailwind CSS", "daisyUI", "Spotify API"],
+    tech: ["Next.js", "React", "daisyUI", "Tailwind CSS", "Spotify API"],
     highlighted: true,
   },
   {
@@ -165,9 +165,11 @@ export const projects = [
     tech: [
       "Next.js",
       "React",
-      "Tailwind CSS",
       "shadcn",
-      "Gemini API",
+      "Tailwind CSS",
+      "Vercel AI SDK",
+      "Gemini AI",
+      "Black Forest Labs",
       "Typescript",
     ],
     highlighted: true,

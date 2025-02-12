@@ -1,27 +1,38 @@
-# Ryth - Music Streaming and Discovery Platform
+# Ryth - Music Streaming and Discovery
 
-Are you a music enthusiast or looking for a platform to discover new sounds? Look no further! I'm excited to share with about **Ryth**! 🎤🎶
+Ryth is a music streaming and discovery platform built with Next.js 14 and Spotify API. It allows users to stream, browse and search for songs, authenticate with Spotify, and save their favorite songs.
 
-Ryth is your ultimate destination for exploring music. Whether you're into the latest chart-toppers or underground tracks, we've got you covered.
+## ✨ Features
 
-No more switching between apps for your music needs! With Ryth, not only can you enjoy our website, but we also offer to install the app for all your devices! 📱
+- 🔑 Authentication with Spotify
+- 📚 Extensive music library
+- 📝 Detailed information:
+  - 🎵 Song details
+  - 📔 Album details
+  - 👥 Artist profiles
+  - 📃 Playlist details
+- 🔍 Easy search functionality:
+  - 🎵 Songs
+  - 👥 Artists
+  - 📔 Albums
+  - 📃 Playlists
+- 🎵 Stream songs:
+  - ▶️ Play
+  - ⏸️ Pause
+  - ⏮️ Previous track
+  - ⏭️ Next track
+  - 🔀 Shuffle
+  - 🔁 Repeat
+  - 🔍 Seek
+  - 🔊 Volume control
+  - 📱 Mobile player
+  - 📻 Radio
 
-Here's what you can expect from Ryth:
+## 🛠️ Tech Stack
 
-## 🎵 Extensive Music Library:
-
-Explore a huge collection of songs, albums, and artists from various genres. From timeless classics to emerging hits, Ryth has something for every musical taste.
-
-## 📝 Detailed Track Information:
-
-Get in-depth details about your favorite songs. From lyrics to the story behind the music, we've got all the info you need to appreciate your music even more.
-
-## 👥 Artist Profiles:
-
-Learn more about your favorite artists. Dive into their journey, listen to their discography, and explore their musical legacy. Ryth brings you closer to the creators behind the music.
-
-## 🔍 Easy Search Functionality:
-
-Find your favorite songs or discover new ones easily with our intuitive search feature. With a user-friendly interface, Ryth makes it simple to navigate and discover new music.
-
-🎉 Visit our website at [Ryth](https://ryth.vercel.app) and start your musical journey today!
+- **Next.js 14** - React-based framework
+- **React** - JavaScript framework
+- **DaisyUI** - Tailwind CSS component library
+- **Tailwind CSS** - Styling and UI design
+- **Spotify API** - Authentication and database
+- **Spotify Web Playback** - Web-based music player

@@ -1,31 +1,38 @@
-# Ryplay - Game Discovery Platform
+# RyPlay - Game Discovery
 
-Are you a gaming enthusiast or looking for your next favorite game? Look no further! I'm excited to introduce you to **Ryplay**! 🎮✨
+RyPlay is a game discovery platform built with Nuxt 3 and IGDB API. It allows users to browse and search for games, authenticate with Supabase, and save their favorite games.
 
-Ryplay offers an extensive database of games from all genres and platforms, making it easy for you to explore new releases, find hidden gems, and dive deeper into game details like never before.
+## ✨ Features
 
-With a sleek interface and powerful search functionality, Ryplay is your go-to destination for all things gaming. You can easily access the platform through our website or install the app on your mobile device! 📱
+- 🔑 Authentication with Supabase:
+  - 👤 Register
+  - 🔑 Login
+  - 🌟 Save favorite games
+  - 🔖 Add games to wishlist
+  - 🎮 Mark game as played
+- 📚 Extensive game library
+- 🎮 View detailed game information:
+  - 📝 Summary and Description
+  - 🎮 Game trailers and screenshots
+  - 📱 Compatible platforms
+  - 🏬 Available stores
+  - 🌟 Rating
+- 🔍 Advanced search with filters:
+  - 📅 Release date
+  - 🎮 Category
+  - 🎮 Genre
+  - 🕹️ Platform
+  - 🏢 Company
+  - 👥 Game mode
+  - 🎮 Theme
+  - 🌟 Keyword
+  - 👥 Player perspective
 
-Here’s what you can expect from Ryplay:
+## 🛠️ Tech Stack
 
-## 🎮 Extensive Game Library:
-
-Browse through an extensive collection of games. From action-packed titles to relaxing indie games, we’ve got it all. Whether you're a casual gamer or a hardcore enthusiast, Ryplay has something for you.
-
-## 📝 Detailed Game Information:
-
-Explore in-depth details about each game, including release dates, descriptions, game modes, and more. Our comprehensive game profiles give you a complete picture before you start playing!
-
-## 🔍 Advanced Search with Filters:
-
-Find exactly what you’re looking for with our powerful search and filter options. Narrow down your results based on various criteria such as release date, category, genre, platform, company, game mode, theme, keyword, and player perspective. Finding your perfect game has never been easier!
-
-## 🎮 Game Ratings:
-
-Check out ratings from other gamers. Discover what the community thinks about a game and find the best games based on player feedback. Don't waste time on mediocre titles!
-
-## 🔍 Easy Search Functionality:
-
-Our intuitive search bar lets you find games with just a few clicks. Whether you’re searching by title, genre, or platform, Ryplay makes it simple to navigate and discover new favorites.
-
-🎉 Visit our website at [Ryplay](https://ryplay.vercel.app) and start exploring the world of games today!
+- **Nuxt 3** - Vue-based framework for a smooth user experience
+- **Vue** - JavaScript framework
+- **DaisyUI** - Tailwind CSS component library
+- **Tailwind CSS** - Styling and UI design
+- **IGDB API** - The biggest game database
+- **Supabase** - Authentication & database

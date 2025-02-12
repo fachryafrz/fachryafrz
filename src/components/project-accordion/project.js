@@ -95,9 +95,9 @@ export default function Project({ projects, project, index }) {
 
 function TechStack({ tech }) {
   return (
-    <div className={`flex gap-2 items-center`}>
+    <div className={`flex gap-2 flex-wrap justify-center md:justify-start items-center`}>
       {tech.map((tech, index) => (
-        <span key={index} className={`mr-2`}>
+        <span key={index}>
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
