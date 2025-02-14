@@ -1,4 +1,4 @@
-# Ryth - Music Streaming and Discovery
+# Ryth – Music Streaming and Discovery
 
 Ryth is a music streaming and discovery platform built with Next.js 14 and Spotify API. It allows users to stream, browse and search for songs, authenticate with Spotify, and save their favorite songs.
 

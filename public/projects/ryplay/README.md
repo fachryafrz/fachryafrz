@@ -1,4 +1,4 @@
-# RyPlay - Game Discovery
+# RyPlay – Game Discovery
 
 RyPlay is a game discovery platform built with Nuxt 3 and IGDB API. It allows users to browse and search for games, authenticate with Supabase, and save their favorite games.
 
