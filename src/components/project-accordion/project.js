@@ -41,7 +41,9 @@ export default function Project({ projects, project, index }) {
       <div className={`lg:col-span-1`}>
         <div className={`h-fit sticky flex flex-col gap-4 top-[68px]`}>
           {project.img_path.map((img, imgIndex) => (
-            <div key={imgIndex}>
+            <button key={imgIndex}
+              onClick={() => handleSetImagesSlider(index, imgIndex)}
+            >
               <Image
                 src={img}
                 alt={``}
@@ -54,11 +56,9 @@ export default function Project({ projects, project, index }) {
                   width: "100%",
                   height: "auto",
                 }}
-                className={`cursor-pointer`}
                 draggable={false}
-                onClick={() => handleSetImagesSlider(index, imgIndex)}
               />
-            </div>
+            </button>
           ))}
         </div>
       </div>
