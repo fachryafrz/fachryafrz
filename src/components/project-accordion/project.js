@@ -54,7 +54,7 @@ export default function Project({ projects, project, index }) {
                   width: "100%",
                   height: "auto",
                 }}
-                className={``}
+                className={`cursor-pointer`}
                 draggable={false}
                 onClick={() => handleSetImagesSlider(index, imgIndex)}
               />
