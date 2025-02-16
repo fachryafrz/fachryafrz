@@ -125,7 +125,7 @@ function CTA({ url, github }) {
   return (
     <>
       {(url || github) && (
-        <div className={`flex gap-2 items-center`}>
+        <div className={`flex gap-2 items-center sticky -bottom-1 py-2 pb-3 bg-opacity-50 backdrop-blur-sm bg-[#1a1a1a]`}>
           {url && (
             <Button
               asChild
