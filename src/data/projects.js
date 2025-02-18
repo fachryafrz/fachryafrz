@@ -142,6 +142,7 @@ export const projects = [
       "/projects/ryth/home.png",
       "/projects/ryth/details.png",
       "/projects/ryth/mobile.png",
+      "/projects/ryth/filters.png",
     ],
     description: "/projects/ryth/README.md",
     url: "https://ryth.vercel.app",
