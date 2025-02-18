@@ -127,12 +127,12 @@ function CTA({ url, github }) {
   return (
     <>
       {(url || github) && (
-        <div className={`flex gap-2 items-center sticky -bottom-1 py-2 pb-3 bg-opacity-50 backdrop-blur-sm bg-[#1a1a1a]`}>
+        <div className={`flex gap-2 items-center sticky -bottom-1 py-2 pb-3 bg-opacity-60 backdrop-blur-sm bg-[#1a1a1a]`}>
           {url && (
             <Button
               asChild
-              variant="outline"
-              className={`bg-transparent border-accent text-accent`}
+              variant="default"
+              className={`bg-accent`}
             >
               <Link href={url} target={`_blank`}>
                 <span>Check it out!</span>
