@@ -43,6 +43,7 @@ export default function Project({ projects, project, index }) {
           {project.img_path.map((img, imgIndex) => (
             <button key={imgIndex}
               onClick={() => handleSetImagesSlider(index, imgIndex)}
+              className={`overflow-hidden rounded-lg`}
             >
               <Image
                 src={img}
@@ -57,6 +58,7 @@ export default function Project({ projects, project, index }) {
                   height: "auto",
                 }}
                 draggable={false}
+                className={`hover:scale-105 transition-all duration-500`}
               />
             </button>
           ))}

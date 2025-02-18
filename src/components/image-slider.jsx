@@ -86,8 +86,8 @@ export default function ImageSlider() {
           >
             {images?.map((image, index) => (
               <SwiperSlide key={index} className={``}>
-                <div className={`swiper-zoom-container h-full pb-12 xl:pb-0`}>
-                  <img src={image} alt="" className={`h-full object-contain`} />
+                <div className={`swiper-zoom-container h-full pb-12 xl:p-4`}>
+                  <img src={image} alt="" className={`rounded-lg`} />
                 </div>
               </SwiperSlide>
             ))}
