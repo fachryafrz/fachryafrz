@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![fachryafrz-Banner](/assets/banner.gif)](https://fachryafrz.vercel.app)
 
-## Getting Started
+<div>
+  <img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=C18B73&width=400&height=30&repeat=true&duration=3000&lines=Hello!;Hola!;Bonjour!;Ciao!;Hallo!;Hej!;Ni+hao!;Konnichiwa!;Annyeonghaseyo!;Merhaba!;Shalom!;Sawadee!;Salam!;Olá!;Namaste!;Zdravstvuyte!;Ahoj!;Szia!;Selam!;Kalimera!"
+/>
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I'm a Front-End Web Developer." 
+  />
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I have been passionate about creating amazing web applications" 
+  />
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=with the best user experience." 
+  />
+</div>
 
-First, run the development server:
+### Frameworks
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![CodeIgniter](assets/icons/codeigniter.svg)
+![Laravel](https://skillicons.dev/icons?i=laravel)
+![Flutter](https://skillicons.dev/icons?i=flutter)
+![Next.js](https://skillicons.dev/icons?i=nextjs)
+![Astro](assets/icons/astro.svg)
+![Nuxt](https://skillicons.dev/icons?i=nuxt)
+![Expo](assets/icons/expo.svg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- ### UI Libraries -->
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<!-- ![Bootstrap](https://skillicons.dev/icons?i=bootstrap)
+![TailwindCSS](https://skillicons.dev/icons?i=tailwindcss)
+![Material UI](https://skillicons.dev/icons?i=materialui)
+![ShadCN](assets/icons/shadcn.svg) -->
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Get in touch
 
-## Learn More
+[![GMail](https://skillicons.dev/icons?i=gmail)](mailto:fachrydwiafriza@gmail.com)
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/fachryafrz)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake.svg" />
+</picture>
