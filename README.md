@@ -1,4 +1,4 @@
-[![fachryafrz-Banner](/images/banner.gif)](https://fachryafrz.vercel.app)
+[![fachryafrz-Banner](/images/banner.gif)](https://www.fachryafrz.com)
 
 <div>
   <img
