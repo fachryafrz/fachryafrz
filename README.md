@@ -1,21 +1,11 @@
 [![fachryafrz-Banner](/images/banner.gif)](https://www.fachryafrz.com)
 
-<div>
-  <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=C18B73&width=400&height=30&repeat=true&duration=3000&lines=Hello!;Hola!;Bonjour!;Ciao!;Hallo!;Hej!;Ni+hao!;Konnichiwa!;Annyeonghaseyo!;Merhaba!;Shalom!;Sawadee!;Salam!;Olá!;Namaste!;Zdravstvuyte!;Ahoj!;Szia!;Selam!;Kalimera!"
-/>
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I'm a Front-End Web Developer." 
-  />
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=I have been passionate about creating amazing web applications" 
-  />
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=FFFFFF&width=1000&height=30&repeat=false&duration=3000&lines=with the best user experience." 
-  />
-</div>
+# Hi there, I'm Fachry 👋  
+**Front-End Web Developer** passionate about building **modern web apps** with top-notch **user experience**.
 
-### Frameworks
+---
+
+### 🚀 Frameworks I've used
 
 ![CodeIgniter](assets/icons/codeigniter.svg)
 ![Laravel](https://skillicons.dev/icons?i=laravel)
@@ -32,10 +22,12 @@
 ![Material UI](https://skillicons.dev/icons?i=materialui)
 ![ShadCN](assets/icons/shadcn.svg) -->
 
-### Get in touch
+### 📫 Get in Touch
 
 [![GMail](https://skillicons.dev/icons?i=gmail)](mailto:fachrydwiafriza@gmail.com)
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/fachryafrz)
+
+### 🐍 My GitHub Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake-dark.svg" />
