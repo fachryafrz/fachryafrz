@@ -1,4 +1,4 @@
-[![fachryafrz-Banner](/images/banner.gif)](https://www.fachryafrz.com)
+[![fachryafrz-Banner](/images/banner.gif)](https://fachryafrz.com)
 
 # Hi there, I'm Fachry 👋  
 **Front-End Web Developer** passionate about building **modern web apps** with top-notch **user experience**.
@@ -7,13 +7,13 @@
 
 ### 🚀 Frameworks I've used
 
-![CodeIgniter](assets/icons/codeigniter.svg)
-![Laravel](https://skillicons.dev/icons?i=laravel)
-![Flutter](https://skillicons.dev/icons?i=flutter)
-![Next.js](https://skillicons.dev/icons?i=nextjs)
-![Astro](assets/icons/astro.svg)
-![Nuxt](https://skillicons.dev/icons?i=nuxt)
-![Expo](assets/icons/expo.svg)
+[![CodeIgniter](assets/icons/codeigniter.svg)](https://codeigniter.com)
+[![Laravel](https://skillicons.dev/icons?i=laravel)](https://laravel.com)
+[![Flutter](https://skillicons.dev/icons?i=flutter)](https://flutter.dev)
+[![Next.js](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org)
+[![Astro](assets/icons/astro.svg)](https://astro.build)
+[![Nuxt](https://skillicons.dev/icons?i=nuxt)](https://nuxt.com)
+[![Expo](assets/icons/expo.svg)](https://expo.dev)
 
 <!-- ### UI Libraries -->
 
