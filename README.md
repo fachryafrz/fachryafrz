@@ -1,11 +1,9 @@
 [![fachryafrz-Banner](/images/banner.gif)](https://fachryafrz.com)
 
-# Hi there, I'm Fachry 👋  
-**Front-End Web Developer** passionate about building **modern web apps** with top-notch **user experience**.
+# 👋 Hi there, I'm Fachry  
+Front-End Web Developer passionate about building modern web apps with top-notch user experience
 
----
-
-### 🚀 Frameworks I've used
+### 🚀 Frameworks
 
 [![CodeIgniter](assets/icons/codeigniter.svg)](https://codeigniter.com)
 [![Laravel](https://skillicons.dev/icons?i=laravel)](https://laravel.com)
