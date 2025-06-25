@@ -14,6 +14,7 @@
 [![Astro](assets/icons/astro.svg)](https://astro.build)
 [![Nuxt](https://skillicons.dev/icons?i=nuxt)](https://nuxt.com)
 [![Expo](assets/icons/expo.svg)](https://expo.dev)
+[![Expo](assets/icons/svelte.svg)](https://svelte.dev)
 
 <!-- ### UI Libraries -->
 
