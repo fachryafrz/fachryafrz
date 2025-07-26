@@ -26,7 +26,7 @@ Front-End Web Developer passionate about building modern web apps with top-notch
 [![GMail](https://skillicons.dev/icons?i=gmail)](mailto:fachrydwiafriza@gmail.com)
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/fachryafrz)
 
-### 🐍 My GitHub Contributions
+### 🐍 My Activites
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake-dark.svg" />
