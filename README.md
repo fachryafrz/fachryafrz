@@ -1,32 +1,62 @@
-[![fachryafrz-Banner](/images/banner.gif)](https://fachryafrz.com)
+<p align="center">
+  <a href="https://fachryafrz.com">
+    <img src="images/banner.png" alt="fachryafrz-Banner" width="100%" />
+  </a>
+</p>
 
-# 👋 Hi there, I'm Fachry  
-Front-End Web Developer passionate about building modern web apps with top-notch user experience
+<h1 align="center">👋 Hi there, I'm Fachry</h1>
+<p align="center">
+  <strong>Full Stack Developer</strong> passionate about building modern web apps with top-notch user experience.
+</p>
 
-### 🚀 Frameworks
+---
 
-[![CodeIgniter](assets/icons/codeigniter.svg)](https://codeigniter.com)
-[![Laravel](https://skillicons.dev/icons?i=laravel)](https://laravel.com)
-[![Flutter](https://skillicons.dev/icons?i=flutter)](https://flutter.dev)
-[![Next.js](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org)
-[![Astro](assets/icons/astro.svg)](https://astro.build)
-[![Nuxt](https://skillicons.dev/icons?i=nuxt)](https://nuxt.com)
-[![Expo](assets/icons/expo.svg)](https://expo.dev)
-[![Expo](assets/icons/svelte.svg)](https://svelte.dev)
+### 🚀 Full Stack
 
-<!-- ### UI Libraries -->
+<p align="left">
+  <a href="https://nextjs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" height="40" /></a>
+  <a href="https://nuxt.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nuxt" alt="Nuxt" height="40" /></a>
+  <a href="https://laravel.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" height="40" /></a>
+  <a href="https://codeigniter.com" target="_blank" rel="noreferrer"><img src="assets/icons/codeigniter.svg" alt="CodeIgniter" height="40" /></a>
+</p>
 
-<!-- ![Bootstrap](https://skillicons.dev/icons?i=bootstrap)
-![TailwindCSS](https://skillicons.dev/icons?i=tailwindcss)
-![Material UI](https://skillicons.dev/icons?i=materialui)
-![ShadCN](assets/icons/shadcn.svg) -->
+### 💻 Frontend
+
+<p align="left">
+  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react" alt="React" height="40" /></a>
+  <a href="https://vuejs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vue" alt="Vue" height="40" /></a>
+  <a href="https://svelte.dev" target="_blank" rel="noreferrer"><img src="assets/icons/svelte.svg" alt="Svelte" height="40" /></a>
+  <a href="https://astro.build" target="_blank" rel="noreferrer"><img src="assets/icons/astro.svg" alt="Astro" height="40" /></a>
+  <a href="https://expo.dev" target="_blank" rel="noreferrer"><img src="assets/icons/expo.svg" alt="Expo" height="40" /></a>
+  <a href="https://flutter.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" height="40" /></a>
+</p>
+
+### ⚙️ Backend
+
+<p align="left">
+  <a href="https://expressjs.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=express" alt="Express" height="40" /></a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" height="40" /></a>
+  <a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=php" alt="PHP" height="40" /></a>
+  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" height="40" /></a>
+</p>
+
+<!-- ### 🎨 UI Libraries
+
+<p align="left">
+  <a href="https://tailwindcss.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwindcss" alt="TailwindCSS" height="40" /></a>
+  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" height="40" /></a>
+  <a href="https://mui.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=materialui" alt="Material UI" height="40" /></a>
+  <a href="https://ui.shadcn.com" target="_blank" rel="noreferrer"><img src="assets/icons/shadcn.svg" alt="Shadcn UI" height="40" /></a>
+</p> -->
 
 ### 📫 Get in Touch
 
-[![GMail](https://skillicons.dev/icons?i=gmail)](mailto:fachrydwiafriza@gmail.com)
-[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/fachryafrz)
+<p align="left">
+  <a href="mailto:fachrydwiafriza@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="GMail" height="40" /></a>
+  <a href="https://linkedin.com/in/fachryafrz" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" /></a>
+</p>
 
-### 🐍 My Activites
+### 🐍 My Activities
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fachryafrz/fachryafrz/output/github-snake-dark.svg" />
