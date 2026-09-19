@@ -28,19 +28,19 @@
 
 <p align="left"><strong>Languages & Frameworks</strong></p>
 <p align="left">
-  <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" height="48" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" height="48" /></a>
-  <a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=php" alt="PHP" height="48" /></a>
-  <a href="https://nextjs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" height="48" /></a>
+  <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" height="48" /></a>
   <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react" alt="React" height="48" /></a>
-  <a href="https://nuxt.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nuxt" alt="Nuxt" height="48" /></a>
+  <a href="https://nextjs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" height="48" /></a>
   <a href="https://vuejs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vue" alt="Vue" height="48" /></a>
-  <a href="https://laravel.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" height="48" /></a>
-  <a href="https://codeigniter.com" target="_blank" rel="noreferrer"><img src="assets/icons/codeigniter.svg" alt="CodeIgniter" height="48" /></a>
+  <a href="https://nuxt.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nuxt" alt="Nuxt" height="48" /></a>
   <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" height="48" /></a>
   <a href="https://expressjs.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=express" alt="Express" height="48" /></a>
   <a href="https://svelte.dev" target="_blank" rel="noreferrer"><img src="assets/icons/svelte.svg" alt="Svelte" height="48" /></a>
   <a href="https://astro.build" target="_blank" rel="noreferrer"><img src="assets/icons/astro.svg" alt="Astro" height="48" /></a>
+  <a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=php" alt="PHP" height="48" /></a>
+  <a href="https://laravel.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" height="48" /></a>
+  <a href="https://codeigniter.com" target="_blank" rel="noreferrer"><img src="assets/icons/codeigniter.svg" alt="CodeIgniter" height="48" /></a>
   <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py" alt="Python" height="48" /></a>
   <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" height="48" /></a>
 </p>
